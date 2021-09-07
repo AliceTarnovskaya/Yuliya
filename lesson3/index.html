@@ -19,14 +19,15 @@
             <p>Insert some random text here</p>
         </div>
     </header>
-    <section>
-       
-        <ul class="container">
+    <section class="nav"> //задаете фоновый цвет (синий)
+       <div class="container">
+        <ul> //ul задавать контейнер не нужно, он существует ради того, чтобы сделать список
             <li>Home</li>
             <li>Services</li>
             <li>Work</li>
             <li>About</li>
         </ul>
+       </div>
     </section>
 
     <main>
@@ -57,15 +58,14 @@
 
 
             <aside>
-                <div>
-                    <div class="box">
-                        
+                <div> //а зачем этот див? какая у него цель?
+                    <div class="box">                        
                             <h2>News</h2>
                             <p>Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не
                                 совсем
                                 так. Его корни уходят в один фрагмент классической латыни 45 года н.э.</p>
                         </div>
-                        <div>
+                        <div> //зачем этот див? здесь он тоже лишний
                             <div class="box1">
                             
 
@@ -83,7 +83,7 @@
         </div>
     </main>
     <footer>
-        <div class="container1">
+        <div class="container1"> //у нас везде 1 container, не нужно создавать еще один такой же
             <p>&copy; 2020 Myfreedom. All right reserved.</p>
         </div>
     </footer>
